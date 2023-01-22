@@ -1,0 +1,496 @@
+/* Utility Designs */
+.container {
+    width: 1440px;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    padding-top: 4rem;
+}
+
+.container-bg {
+    background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+}
+
+.description-secondary {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    color: #777777;
+    top: -30px;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    padding: 0 4.5rem;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.description {
+    color: #777777;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: -40px;
+}
+
+.btn-primary {
+    background-color: ;
+    background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    height: 50px;
+
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-image: linear-gradient(270deg, rgb(238, 44, 44) 0%, #ff7b22 100%);
+
+}
+
+.banner-image {
+    text-align: end;
+
+}
+
+.banner-image img {
+    width: 90%;
+
+}
+
+.trust-pilot-container {
+    display: flex;
+    align-items: center;
+    line-height: 5px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 1px 8px 6px -6px black;
+    border: solid .5px rgb(197, 196, 196);
+    position: relative;
+    right: 470px;
+    top: 180px;
+}
+
+.stars {
+    width: 30px;
+    padding-right: 10px;
+
+}
+
+/* Our Features */
+.features-heads {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.product-line {
+    text-align: center;
+    line-height: 1.0rem;
+    background-image: linear-gradient(180deg, #F4F4F4 0%, rgba(250, 238, 238, 0.616) 100%);
+    border-radius: 10px;
+}
+
+/* Gretings Card */
+.gretings-card-section {
+    display: flex;
+    align-items: center;
+}
+
+.feature-product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.products-blank {
+    background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    border-radius: 10px;
+    opacity: 20%;
+    width: 238px;
+    height: 136px;
+
+}
+
+.products {
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(230, 166, 35, 0.1);
+    text-align: center;
+    padding: 40px 10px;
+
+}
+
+.hide {
+    display: none;
+}
+
+/* Incompleted*** ^ */
+
+/* Section Super Client */
+.flex-box .texts {}
+
+.flex-title {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.flex-description {
+    color: white;
+    font-weight: 100px;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.btn-showall {
+    color: red;
+    background-color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 15px;
+}
+
+/* Card */
+.card-container {
+    rotate: -5deg;
+    padding-bottom: 5rem;
+}
+
+.client-image {
+    position: relative;
+    top: 2rem;
+    right: 1.5rem;
+    background-color: #ebebeb;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+}
+
+.comment-box {
+    background-color: #F4F4F4;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.card-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-name {
+    margin-top: -1px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+/* News & Events */
+
+/* card */
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.news-line {
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: start;
+    line-height: 1rem;
+}
+
+.news-line a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #444343;
+}
+
+.news-line img {
+    width: 100%;
+}
+
+.news-dt {
+    color: #777777;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.news-title {
+    font-weight: 800;
+    font-size: 20px;
+    color: #1C1C1C;
+}
+
+.news-description {
+    color: #777777;
+}
+
+/* Footer Section */
+footer {
+    background-image: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
+    ;
+    margin-top: 8rem;
+}
+
+/* Cup */
+.cup-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cup {
+    display: flex;
+    align-items: center;
+}
+
+.cup-title {
+    padding-right: 3rem;
+    font-weight: 400;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #494949;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subscribe-form input {
+    outline: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background-color: #f1d9d9;
+    transition: 0.3s;
+}
+.subscribe-form input:focus{
+    color: #ff7b22;
+    background-color: #fae7e7;
+}
+
+.btn-subscribe {
+    background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.description-footer {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #494949;
+    padding: 1rem 0rem 5rem;
+    
+}
+
+
+
+/* Small Device */
+@media only screen and (max-width: 576px) {
+
+    /* banner */
+    .container {
+        width: auto;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .trust-pilot-container {
+        position: static;
+    }
+
+    .btn-primary {
+        margin: 4rem 0rem;
+    }
+
+    /* features */
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .product-line p {
+        width: 70%;
+        margin: auto;
+
+    }
+
+    /* clients */
+    .flex-box {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    /* News */
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .news-line {
+        line-height: 1.3rem;
+        padding: 0;
+    }
+
+    /* footer */
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: start;
+    }
+}
+
+/* Medium Device */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* banner */
+    .container {
+        width: auto;
+        margin: auto;
+        padding: 0rem;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .trust-pilot-container {
+        position: static;
+    }
+
+    .btn-primary {
+        margin: 4rem 0rem;
+    }
+
+    /* features */
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+
+    .product-line p {
+        width: 70%;
+        margin: auto;
+
+    }
+
+    /* clients */
+
+
+    /* News */
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    .news-line {
+        line-height: 1.3rem;
+        padding: 0;
+    }
+}
+
+/* Large Device */
+@media only screen and (min-width: 993px) and (max-width: 1400px) {
+
+    /* banner */
+    .container {
+        width: auto;
+        margin: auto;
+        padding: 0rem;
+    }
+
+    /* features */
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+
+    .product-line p {
+        width: 70%;
+        margin: auto;
+    }
+
+    /* News */
+    .news-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+
+    .news-line {
+        line-height: 1.3rem;
+        padding: 0;
+    }
+}
