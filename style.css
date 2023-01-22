@@ -129,16 +129,15 @@
 
 .feature-product {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) ;
     gap: 1rem;
+    gap: 1.5rem;
 }
 
 .products-blank {
     background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
     border-radius: 10px;
     opacity: 20%;
-    width: 238px;
-    height: 136px;
 
 }
 
@@ -148,14 +147,28 @@
     background-color: rgba(230, 166, 35, 0.1);
     text-align: center;
     padding: 40px 10px;
+    width: 11rem;
 
+}
+
+.gretings-card-body{
+    margin-left: 3rem;
+    line-height: 1.5rem;
+}
+
+.gretings-card-body h1{
+    font-size: 3rem;
+
+}
+.gretings-card-body h3{
+    font-size: 1.5rem;
 }
 
 .hide {
     display: none;
 }
 
-/* Incompleted*** ^ */
+/* Problem Here *** ^ */
 
 /* Section Super Client */
 .flex-box .texts {}
@@ -378,6 +391,23 @@ footer {
 
     }
 
+    /* Greatings Card */
+    .feature-product{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gretings-card-section{
+        flex-direction: column;
+    }
+    .gretings-card-body{
+        margin: auto;
+    }
+    .gretings-card-body h1{
+        line-height: 3rem;
+
+    }
+
     /* clients */
     .flex-box {
         flex-direction: column;
@@ -401,6 +431,11 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: start;
+    }
+    .cup-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
